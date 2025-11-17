@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    background-color: #000;
+    background-image:  url('/assest/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+
+}
+nav{
+    display: flex;
+    gap: 10px;
+    color: white;
+    font-size: 12px;
+}
+.your{
+    width: 100px;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    align-items: center;
+}
+.email{
+    font-size: 10px;
+    border-radius: 15px;
+    width: 60px;
+    margin-right: 10px;
+    color: red;
+    
+}
+img{
+    width: 70%;
+      
+}
+.sec2{
+    margin-top: 100px;
+}
+.frame{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    width: 30%;
+    
+    
+}
+.frame h2{
+    font-size: 28px;
+    color: white;
+    margin-right: 70px;
+    margin-bottom: 25px;
+}
+.frame p{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 25px;
+}
+.try{
+    width: 110px;
+    color: rgb(63, 72, 130);
+    border-radius: 15px;
+    padding: 7px;
+    font-size: 12px;
+}
+.service{
+    text-align: center;
+     color: white;
+    margin-bottom: 10px;
+}
+.icon1 {
+    width: 50px;
+    color: white;
+}
+.feat1{
+    margin-right: 20px;
+
+}
+.feat1 h6{
+    color: white;
+    font-size: 12px;
+
+}
+.feat1 p{
+    color: white;
+    font-size: 12px;
+}
+.img-icon{
+    height: 50px;
+    width: 50px;
+}
+
+.feature-1{
+    display: flex;
+    align-items: center;
+}
+.feat2{
+    margin-right: 20px;
+}
+
+.img-icon2{
+    height: 50px;
+    width: 50px;
+}
+.feat2 h6{
+    color: white;
+    font-size: 12px;
+
+}
+.feat2 p{
+    color: white;
+    font-size: 12px;
+}
+.feature-2 {
+    display: flex;
+    align-items: center;
+}
+.feat3{
+
+}
+
+.img-icon3{
+    height: 50px;
+    width: 50px;
+}
+.feat3 h6{
+    color: white;
+    font-size: 12px;
+
+}
+.feat3 p{
+    color: white;
+    font-size: 12px;
+}
+.feature-3 {
+    display: flex;
+    align-items: center;
+}
+.imgicons{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.sec4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    justify-content: center;
+
+}
+.sec4 h1{
+    color: white;
+    margin-bottom: 20px;
+}
+.sec4 p {
+    color: white;
+    margin-bottom: 20px;
+
+}
+.butt{
+    width: 100px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(63, 142, 239);
+    color: white;
+    font-size: 12px;
+}
+.sec4 img{
+    margin-top: 50px;
+}
