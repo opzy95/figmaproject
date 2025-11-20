@@ -757,6 +757,13 @@ form{
 .img-icon4{
     width: 100%;
 }
+.imagehero{
+    width: 270px;
+}
+.img-icon4{
+    width: 100%;
+    margin: 2px auto;
+}
 }
 @media  screen and (max-width: 800px){
     .sec10{
@@ -775,6 +782,9 @@ form{
     }
     .grp{
         width: 100%;
+    }
+    .but2{
+        padding: 9px;
     }
 
 }
