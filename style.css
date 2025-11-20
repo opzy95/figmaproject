@@ -4,14 +4,17 @@
     box-sizing: border-box;
 }
 .container{
-    width: 1500px;
-    background-color: #000;
+    width: 100%;
+    
+    background-color: rgb(37, 43, 66);
+    
 }
 .hero{
  background-image:  url('/assest/bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding: 10px;
 }
 .sec1{
     display: flex;
@@ -20,6 +23,10 @@
     font-size: 16px;
     padding: 5px;
 }
+.focus{
+    width: 13rem;
+    
+}
 .desktop1{
     display: flex;
     gap: 10px;
@@ -27,60 +34,102 @@
     font-size: 12px;
 }
 .your{
-    width: 100px;
+    width: 130px;
     font-size: 10px;
-    padding: 5px;
+    padding: 8px;
     border-radius: 15px;
     align-items: center;
+    text-align: left;
 }
 .email{
-    font-size: 10px;
+    font-size: 9px;
     border-radius: 15px;
-    width: 60px;
+    width: 65px;
     margin-right: 10px;
     color: red;
+    justify-items: center;
+    padding: 8px    ;
     
 }
+.inn{
+    width: 140px;
+    padding: 8px;
+      border-radius: 15px;
+      color: #000;
+      font-size: 10px;
+}
+nav{
+
+    align-items: center;
+    justify-content: center;
+}
 .logo{
-    width: 70%;
+    width: 20%;
       
 }
+.desktop1 > ul > li{
+    list-style: none;
+    padding: 10px;
+    
+}
+.desktop1 ul{
+    display: flex;
+}
+.most{
+    width: 10rem;
+    justify-content: center;
+}
+
 .sec2{
     margin-top: 100px;
     display: flex;
     padding: 15px;
+    gap: 70px;
+    justify-content: center;
 }
 .frame{
     display: flex;
     flex-direction: column;
-    margin-right: 10px;
     margin-top: 100px;
-    align-items: center;
-    margin-left: 15px;
+    gap: 10px;
 }
 .frame h2{
     font-size: 28px;
     color: white;
-    margin-right: 70px;
-    margin-bottom: 25px;
 }
 .frame p{
     font-size: 16px;
     color: white;
-    margin-bottom: 25px;
+    margin: 10px ;
+    width: 16rem;
+    margin-left: -10px;
 }
 .try{
-    width: 110px;
-    color: rgb(63, 72, 130);
+    width: 130px;
+    color: rgb(13, 89, 240);
     border-radius: 15px;
     padding: 7px;
-    font-size: 12px;
-    gap: 20px;
+    font-size: 14px;
+    font-weight: bold;
 }
 .service{
     text-align: center;
      color: white;
-    margin-bottom: 10px;
+     line-height: 50px;
+
+}
+.most1{
+    width: 15rem;
+    margin: 10px auto;
+}
+.mst{
+    width: 17rem;
+}
+.mst2{
+    width: 28rem;
+}
+.slate{
+    width: 10rem;
 }
 .icon1 {
     width: 50px;
@@ -98,6 +147,7 @@
 .feat1 p{
     color: white;
     font-size: 12px;
+    margin: 10px auto;
 }
 .img-icon{
     height: 50px;
@@ -124,13 +174,18 @@
 .feat2 p{
     color: white;
     font-size: 12px;
+    margin: 10px auto;
 }
 .feature-2 {
     display: flex;
     align-items: center;
 }
-.feat3{
-
+.imagehero{
+    overflow: hidden;
+margin-left: -217px;
+}
+.img-icon4{
+    margin-left: -20px;
 }
 
 .img-icon3{
@@ -145,6 +200,7 @@
 .feat3 p{
     color: white;
     font-size: 12px;
+    margin: 10px auto;
 }
 .feature-3 {
     display: flex;
@@ -184,6 +240,7 @@ text-align: center;
 }
 .sec4 img{
     margin-top: 50px;
+    width: 550px;
 }
 .sec5 p{
     color: white;
@@ -213,7 +270,7 @@ text-align: center;
     color: white;
     font: 6px;
     padding: 4px;
-    background-color: rgb(144, 9, 65);
+    background-color: #EF2779;
 
 }
 .partner{
@@ -237,19 +294,20 @@ text-align: center;
     justify-content: center;
     text-align: center;
     margin-top: 50px;
+    gap: 20px;
 }
 .client1 h4{
     color: white;
-    margin-right: 12px;
+    margin-right: 15px;
 }
 .client2 h4{
     color: white;
-    margin-right: 12px;
+    margin-right: 15px;
 
 }
 .client3{
     color: white;
-    margin-right: 12px;
+    margin-right: 15px;
 
 }
 .sec7{
@@ -258,19 +316,20 @@ text-align: center;
     justify-content: center;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 30px;
 
 }
 .client4 h4{
     color: white;
-    margin-right: 12px;
+    margin-right: 15px;
 }
 .client5 h4{
     color: white;
-    margin-right: 12px;
+    margin-right: 15px;
 }
 .client6 h4{
     color: white;
-    margin-right: 12px;
+    margin-right: 15px;
 }
 .butt3{
     width: 150px;
@@ -318,6 +377,10 @@ text-align: center;
     color: white;
     
 }
+.page li{
+    list-style: none;
+    padding: 15px;
+}
 .text2{
     color: white;
     margin-top: 60px;
@@ -328,7 +391,7 @@ text-align: center;
     background-color: white;
     padding-top: 2px;
     border-radius: 5px;
-    margin-left: 50px;  
+    margin-left: 30px;  
 }
 .text3{
     color: black;
@@ -373,11 +436,11 @@ text-align: center;
 }
 .free:hover{
     color: white;
-    background-color: #2089e4;
+    background:linear-gradient( #EF2779,#7834BE);
 }
 .free:hover button{
     background-color: #fff;
-    color: #000;
+    color: #EF2779;
 }
 .text7{
     color: white;
@@ -406,13 +469,13 @@ text-align: center;
     display: none;
 }
 .text10{
-    color: white;
+    color: black;
     text-align: center;
     margin-top: 30px;
     font-size: 30px;
 }
 .text11{
-    color: white;
+    color: black;
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -466,6 +529,10 @@ form{
 }
 .text13{
     color: white;
+    font-size: 14px;
+}
+.text13a{
+    color: black;
     font-size: 16px;
 }
 .ico{
@@ -476,7 +543,7 @@ form{
 }
 .sec11{
     margin-top: 20px;
-    background-color: aqua;
+    background-color: rgb(214, 235, 255);
     padding-top: 20px;
 }
 .form2 {
@@ -487,7 +554,7 @@ form{
     }
 .foot{
     color: white;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .image{
     margin-top: px;
@@ -504,16 +571,18 @@ li{
 .page h2{
     color: #fff;
     margin-top: 20px;
+    padding: 15px;
 }
 footer{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
     gap: 40px;
+    background-color: rgb(37, 43, 66);
 }
 .option li{
     color: white;
     list-style-type: none;
+    font-size: 12px;
 }
 .option{
     position: absolute;
@@ -522,6 +591,16 @@ footer{
     padding: 10px;
 
 }
+.ffs{
+    width: 5rem;
+    font-size: 14px;
+    padding: 5px;
+}
+.ffs1{
+    width: 7rem;
+    font-size: 14px;
+    padding: 5px;
+}
 .bbt{
     display: flex;
     flex-direction: column;
@@ -529,10 +608,10 @@ footer{
 }
 
 
-@media  screen and (max-width: 450px) {
+@media  screen and (max-width: 800px) {
     .container{
         width: 95%;
-        margin: 5px auto;
+        margin: 0 auto;
     }
     .mobile{
     display: block;
@@ -553,11 +632,11 @@ footer{
 }
 .mobile1{
     position: relative;
+    margin: ;
 }
 .img-icon4{
     width: 100%;
     height: 100%;
-    border: 3px solid blue;
     }
 .imagehero{
     width: 200px;
@@ -566,7 +645,10 @@ footer{
 }
 .frame{
     margin-top: 0;
+    justify-content: center;
+
 }
+
 .frame h2{
     font-size: 18px;
     margin-right:0;
@@ -576,6 +658,7 @@ footer{
     padding: 0;
     flex-direction:column-reverse ;
     margin-top: 10px;
+    margin-bottom: 70px;
 }
 .imagee{
     width: 100px;
@@ -583,11 +666,10 @@ footer{
     
 }
 
-.comp{
-    width: 300px;
-}
+
 .imgicons {
     flex-direction: column;
+    margin: 10px auto;
 }
 
 .immage{
@@ -597,10 +679,11 @@ footer{
 .sec6{
     flex-direction: column;
     gap: 30px;
+    margin: 10px auto;
 }
 .free{
     width: 180px;
-    margin-bottom: 20px;   
+    margin:10px auto;   
 }
 .sec11{
     padding: 0;
@@ -611,16 +694,15 @@ footer{
 .form2{
     flex-direction: column-reverse;
     width: 270px;
-    padding: 5px;
+    padding: 15px;
 }
 
 .form3{
     width: 0px;
 }
 textarea {
-    width: 50px;
+    width: 70px;
     height: 100px;
-    border: 3px solid red;
 }
 .form-group{
     margin: 0;
@@ -628,8 +710,10 @@ textarea {
 }
 footer{
     flex-direction: column;
-    gap: 10px;
+    gap: 1px;
     align-items: center;
+    width: 95%;
+    margin: 0 auto;
 }
 .map{
     width: 270px;
@@ -645,12 +729,32 @@ footer{
 .sec2{
     align-items: center; 
 }
+.sec4 img{
+    width: 200px;
+}
+.mst2{
+    width: 18rem;
+}
+.text10{
+    padding-top: 10px;
+}
 
 .form{
     width: 260px;
-    border: 2px solid green;
 }
 form{
+    width: 100%;
+}
+.footer{
+    width: 98%;
+
+}
+
+.frame h2{
+    width: 8rem;
+    margin: 15px auto;
+}
+.img-icon4{
     width: 100%;
 }
 }
