@@ -608,7 +608,7 @@ footer{
 }
 
 
-@media  screen and (max-width: 800px) {
+@media  screen and (max-width: 480px) {
     .container{
         width: 95%;
         margin: 0 auto;
@@ -757,4 +757,24 @@ form{
 .img-icon4{
     width: 100%;
 }
+}
+@media  screen and (max-width: 800px){
+    .sec10{
+        width: 97%;
+        margin: px auto;
+    }
+    footer{
+        padding: 10px;
+    
+    }
+    .map{
+        width: 30%;
+    }
+    .form-group{
+        width: 70%;
+    }
+    .grp{
+        width: 100%;
+    }
+
 }
